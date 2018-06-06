@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[HistoryByDateRange] (Table)
+       [dbo].[HistoryByPKeyRange] (Table)
+       [dbo].[PartitionTypes] (Table)
+       [dbo].[Sources] (Table)
+       [dbo].[SqlConfigurations] (Table)
+       [dbo].[FK_HistoryByDateRange_Loads] (Foreign Key)
+       [dbo].[FK_HistoryByPKeyRange_Loads] (Foreign Key)
+       [dbo].[FK_SqlConfigurations_SourceId] (Foreign Key)
+       [dbo].[FK_SqlConfigurations_PartitionTypeId] (Foreign Key)
+
+** Supporting actions
