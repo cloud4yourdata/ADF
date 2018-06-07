@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ADF-ConfigurationDB", "ADF-ConfigurationDB\ADF-ConfigurationDB.sqlproj", "{5F125B34-53F9-4BD7-B863-39CFB2CA166C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ADF-SampleSourceDB", "ADF-SampleSourceDB\ADF-SampleSourceDB.sqlproj", "{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{5F125B34-53F9-4BD7-B863-39CFB2CA166C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F125B34-53F9-4BD7-B863-39CFB2CA166C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F125B34-53F9-4BD7-B863-39CFB2CA166C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB469DF-A92E-4694-BE95-C2B9F78DEADC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
