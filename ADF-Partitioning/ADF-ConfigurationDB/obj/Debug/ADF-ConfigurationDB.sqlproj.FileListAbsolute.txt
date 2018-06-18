@@ -1,9 +1,0 @@
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\bin\Debug\ADF-ConfigurationDB.dacpac
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\bin\Debug\ADF_ConfigurationDB.dll
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\bin\Debug\ADF_ConfigurationDB.pdb
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\ADF_ConfigurationDB.dll
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\ADF_ConfigurationDB.pdb
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\Model.xml
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\refactor.xml
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\postdeploy.sql
-P:\Repos\ADF\ADF-Partitioning\ADF-ConfigurationDB\obj\Debug\predeploy.sql

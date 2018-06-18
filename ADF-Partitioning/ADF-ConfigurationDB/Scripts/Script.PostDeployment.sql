@@ -10,3 +10,4 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 :r Init\LoadDictionaries.sql	
+:r Configurations\SampleConfigurations.sql	

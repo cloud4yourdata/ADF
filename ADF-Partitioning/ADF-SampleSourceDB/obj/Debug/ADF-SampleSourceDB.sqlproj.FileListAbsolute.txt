@@ -1,9 +1,0 @@
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\bin\Debug\ADF-SampleSourceDB.dacpac
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\bin\Debug\ADF_SampleSourceDB.dll
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\bin\Debug\ADF_SampleSourceDB.pdb
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\ADF_SampleSourceDB.dll
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\ADF_SampleSourceDB.pdb
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\Model.xml
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\refactor.xml
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\postdeploy.sql
-P:\Repos\ADF\ADF-Partitioning\ADF-SampleSourceDB\obj\Debug\predeploy.sql

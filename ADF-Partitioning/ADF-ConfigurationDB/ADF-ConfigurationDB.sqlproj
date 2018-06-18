@@ -71,6 +71,12 @@
     <Build Include="dbo\Tables\PartitionTypes.sql" />
     <Build Include="dbo\Tables\HistoryByDateRange.sql" />
     <Build Include="dbo\Tables\HistoryByPKeyRange.sql" />
+    <Build Include="dbo\Views\vw_LastExecutionByDateRange.sql" />
+    <Build Include="dbo\Views\vw_LastExecutionByPKeyRange.sql" />
+    <Build Include="dbo\StoredProcedures\usp_GetConfigurationDateRange.sql" />
+    <Build Include="dbo\StoredProcedures\usp_AddHistoryDateRange.sql" />
+    <Build Include="dbo\StoredProcedures\usp_AddHistoryPKeyRange.sql" />
+    <Build Include="dbo\StoredProcedures\usp_GetConfigurationPKeyRange.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
