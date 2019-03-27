@@ -6,7 +6,8 @@
 	[Name] VARCHAR(50) NOT NULL,
 	[SqlIngestQuery] VARCHAR(MAX) NOT NULL,
 	[SqlMaxIdQuery] VARCHAR(MAX),
-	CONSTRAINT [PK_SqlConfigurations] PRIMARY KEY CLUSTERED ([Id] ASC),
+	[DestFileName] NVARCHAR(100) NULL DEFAULT '', 
+    CONSTRAINT [PK_SqlConfigurations] PRIMARY KEY CLUSTERED ([Id] ASC),
 	CONSTRAINT [FK_SqlConfigurations_SourceId] FOREIGN KEY ([SourceId]) REFERENCES [dbo].[Sources] ([Id]),
 	CONSTRAINT [FK_SqlConfigurations_PartitionTypeId] FOREIGN KEY ([PartitionTypeId]) REFERENCES [dbo].[PartitionTypes] ([Id])
 )

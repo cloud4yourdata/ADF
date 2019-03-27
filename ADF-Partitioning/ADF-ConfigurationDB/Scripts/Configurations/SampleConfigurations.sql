@@ -2,6 +2,7 @@
 DECLARE @sourceId INT = 1;
 DECLARE @datePartitionTypeId INT = 1;
 DECLARE @confName VARCHAR(50) = 'Table1';
+DECLARE @destFileName VARCHAR(100) ='Table1.csv'
 DECLARE @sqlQuery AS VARCHAR(MAX) = N'
 SELECT Id
 	,[Value]
@@ -11,13 +12,14 @@ WHERE InsertedOn BETWEEN @StartDate
 		AND @EndDate
 ';
 
+
 IF NOT EXISTS (
 		SELECT 1
 		FROM dbo.SqlConfigurations
 		)
 BEGIN
 	SET XACT_ABORT ON;
-
+	BEGIN TRAN;
 	INSERT INTO dbo.SqlConfigurations (
 		[Name]
 		,PartitionTypeId
@@ -44,7 +46,8 @@ BEGIN
 		,@configId
 		);
 
-	SET @confName = 'Table2';
+SET @confName = 'Table2';
+SET @destFileName = 'Table2.csv'
 	SET @sqlQuery = N'
 SELECT Id
 	,[Value]
@@ -84,9 +87,10 @@ WHERE InsertedOn BETWEEN @StartDate
 	SELECT MAX(Id) AS Id FROM dbo.Table3
 	';
 
-	SET @confName = 'Table3';
-	SET @datePartitionTypeId = 2;
-	SET @sqlQuery = N'
+SET @confName = 'Table3';
+SET @destFileName = 'Table3.csv'
+SET @datePartitionTypeId = 2;
+SET @sqlQuery = N'
 SELECT Id
 	,[Value]
 	,InsertedOn
