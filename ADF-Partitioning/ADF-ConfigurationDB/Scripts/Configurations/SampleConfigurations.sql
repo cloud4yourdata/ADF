@@ -8,8 +8,8 @@ SELECT Id
 	,[Value]
 	,InsertedOn
 FROM dbo.Table1
-WHERE InsertedOn BETWEEN @StartDate
-		AND @EndDate
+WHERE InsertedOn > @StartDate
+		AND InsertedOn <= @EndDate
 ';
 
 
@@ -53,8 +53,8 @@ SELECT Id
 	,[Value]
 	,InsertedOn
 FROM dbo.Table2
-WHERE InsertedOn BETWEEN @StartDate
-		AND @EndDate
+WHERE InsertedOn > @StartDate
+		AND InsertedOn <= @EndDate
 ';
 
 	INSERT INTO dbo.SqlConfigurations (
@@ -95,8 +95,8 @@ SELECT Id
 	,[Value]
 	,InsertedOn
 FROM dbo.Table3
-WHERE Id BETWEEN @StartId
-		AND @EndId
+WHERE Id > @StartId
+		AND Id <= @EndId
 ';
 
 	INSERT INTO dbo.SqlConfigurations (
